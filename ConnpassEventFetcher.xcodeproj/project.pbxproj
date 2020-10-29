@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		124A351B254AECBB004E9EEC /* ConnpassEventFetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A351A254AECBB004E9EEC /* ConnpassEventFetcherApp.swift */; };
-		124A351D254AECBB004E9EEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A351C254AECBB004E9EEC /* ContentView.swift */; };
+		124A351D254AECBB004E9EEC /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A351C254AECBB004E9EEC /* TopListView.swift */; };
 		124A351F254AECBD004E9EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124A351E254AECBD004E9EEC /* Assets.xcassets */; };
 		124A3522254AECBD004E9EEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124A3521254AECBD004E9EEC /* Preview Assets.xcassets */; };
+		124A352B254AED69004E9EEC /* StudyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A352A254AED69004E9EEC /* StudyGroup.swift */; };
+		124A352E254AED9B004E9EEC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A352D254AED9B004E9EEC /* Event.swift */; };
+		124A3531254AEE49004E9EEC /* sampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A3530254AEE49004E9EEC /* sampleData.swift */; };
+		124A3538254AF23B004E9EEC /* EventFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A3537254AF23B004E9EEC /* EventFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		124A3517254AECBB004E9EEC /* ConnpassEventFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnpassEventFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		124A351A254AECBB004E9EEC /* ConnpassEventFetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassEventFetcherApp.swift; sourceTree = "<group>"; };
-		124A351C254AECBB004E9EEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		124A351C254AECBB004E9EEC /* TopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
 		124A351E254AECBD004E9EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		124A3521254AECBD004E9EEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		124A3523254AECBD004E9EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124A352A254AED69004E9EEC /* StudyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGroup.swift; sourceTree = "<group>"; };
+		124A352D254AED9B004E9EEC /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		124A3530254AEE49004E9EEC /* sampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleData.swift; sourceTree = "<group>"; };
+		124A3537254AF23B004E9EEC /* EventFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				124A351A254AECBB004E9EEC /* ConnpassEventFetcherApp.swift */,
-				124A351C254AECBB004E9EEC /* ContentView.swift */,
+				124A351C254AECBB004E9EEC /* TopListView.swift */,
+				124A3537254AF23B004E9EEC /* EventFetcher.swift */,
 				124A351E254AECBD004E9EEC /* Assets.xcassets */,
 				124A3523254AECBD004E9EEC /* Info.plist */,
+				124A352D254AED9B004E9EEC /* Event.swift */,
+				124A3530254AEE49004E9EEC /* sampleData.swift */,
 				124A3520254AECBD004E9EEC /* Preview Content */,
+				124A352A254AED69004E9EEC /* StudyGroup.swift */,
 			);
 			path = ConnpassEventFetcher;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				124A351D254AECBB004E9EEC /* ContentView.swift in Sources */,
+				124A3531254AEE49004E9EEC /* sampleData.swift in Sources */,
+				124A352E254AED9B004E9EEC /* Event.swift in Sources */,
+				124A352B254AED69004E9EEC /* StudyGroup.swift in Sources */,
+				124A351D254AECBB004E9EEC /* TopListView.swift in Sources */,
+				124A3538254AF23B004E9EEC /* EventFetcher.swift in Sources */,
 				124A351B254AECBB004E9EEC /* ConnpassEventFetcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

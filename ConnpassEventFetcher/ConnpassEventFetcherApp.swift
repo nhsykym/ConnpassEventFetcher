@@ -11,7 +11,7 @@ import SwiftUI
 struct ConnpassEventFetcherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TopListView()
         }
     }
 }
